@@ -6,8 +6,8 @@
     @method('PUT')
     @csrf
     <div class="form-group">
-        <label for="">License Place:</label>
-        <input type="text" name="license_place" id="" value="{{ $Trucks->license_place }}" placeholder="Masukkan License Place">
+        <label for="">License Plate:</label>
+        <input type="text" name="license_plate" id="" value="{{ $Trucks->license_plate }}" placeholder="Masukkan License Plate">
     </div>
     <div class="form-group">
         <label for="">Model:</label>
@@ -19,7 +19,7 @@
     </div>
     <div class="form-group">
         <label for="">Expired KIR:</label>
-        <input type="date" name="expired_kir" id="" value="{{ $Trucks->expired_kir }}" placeholder="Masukkan Expired KIR">
+        <input type="date" name="exp_kir" id="" value="{{ $Trucks->expired_kir }}" placeholder="Masukkan Expired KIR">
     </div>
         <div class="form-group">
             <label for="">Status Available:</label>

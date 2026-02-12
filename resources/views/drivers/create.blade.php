@@ -13,11 +13,11 @@
     </div>
      <div class="form-group">
         <label for="">Expired SIM:</label>
-        <input type="date" name="expired_sim" id="" placeholder="Masukkan Expired SIM">
+        <input type="date" name="exp_sim" id="" placeholder="Masukkan Expired SIM">
     </div>
      <div class="form-group">
         <label for="">Experience:</label>
-        <input type="number" name="experience" id="" placeholder="Masukkan Experience">
+        <input type="number" name="experience_years" id="" placeholder="Masukkan Experience">
     </div>
     <button type="submit" class="tombol">Submit</button>
 </form>

@@ -14,11 +14,11 @@
     </div>
      <div class="form-group">
         <label for="">Expired SIM:</label>
-        <input type="date" name="expired_sim" id="" value="{{ $Drivers->expired_sim }}" placeholder="Masukkan Expired SIM">
+        <input type="date" name="exp_sim" id="" value="{{ $Drivers->expired_sim }}" placeholder="Masukkan Expired SIM">
     </div>
      <div class="form-group">
         <label for="">Experience:</label>
-        <input type="number" name="experience" id="" value="{{ $Drivers->experience }}" placeholder="Masukkan Experience">
+        <input type="number" name="experience_years" id="" value="{{ $Drivers->experience_years }}" placeholder="Masukkan Experience">
     </div>
     <button type="submit" class="tombol">Edit</button>
 </form>

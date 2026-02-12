@@ -4,8 +4,8 @@
 <form action="{{ route("trucks.store") }}" method="post">
     @csrf
     <div class="form-group">
-        <label for="">License Place:</label>
-        <input type="text" name="license_place" id="" placeholder="Masukkan License Place">
+        <label for="">License plate:</label>
+        <input type="text" name="license_plate" id="" placeholder="Masukkan License Plate">
     </div>
     <div class="form-group">
         <label for="">Model:</label>
@@ -17,7 +17,7 @@
     </div>
     <div class="form-group">
         <label for="">Expired KIR:</label>
-        <input type="date" name="expired_kir" id="" placeholder="Masukkan Expired KIR">
+        <input type="date" name="exp_kir" id="" placeholder="Masukkan Expired KIR">
     </div>
         <div class="form-group">
             <label for="">Status Available:</label>
